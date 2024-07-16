@@ -1,0 +1,18 @@
+What is the difference between instance methods and static methods?
+Instance methods are defined on the prototype of a class where a Static method is defined on the class. 
+The call for an Instance method is on an instance of a class where Static is called on the class
+Instance Methods can access and modify instance properties where Static methods cannot unless passed explicity
+
+
+How does Javascript handle concurrency?
+JavaScript handles concurrency by using an event loop. This loop process tasks/functions in a queue.
+
+What is async/await? How does it differ from using the promise instance methods?
+Async/await if a function that can return a promise and await allows for the pause to allow the promise to resolved or reject.
+Async/await allows for asynchronous code to be written in a more synchronous manor while promises can be more complex in nature. 
+
+Can you use await outside of an async function?
+No, await is used for handling promises and can only be used within an async function with the exception of a top of level await where await is at the top of a module.
+
+What is callback hell and why is it considered a problem?
+Callback hell is when there are nested callbacks and nested callback are hard to read, difficult to maintain, and hard to debug. 
